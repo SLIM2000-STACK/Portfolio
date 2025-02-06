@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+     'navbar navbar navbar navbar navbar navbar'
+     'imageprofile imageprofile imageprofile imageprofile imageprofile imageprofile'
+     'firstlist firstlist secondlist secondlist thirdlist thirdlist'
+     'socials socials socials socials socials socials'
+;
+}
+#item1{
+    grid-area: navbar;
+}
+#item2{
+    grid-area: imageprofile;
+}
+#item3{
+    grid-area: firstlist;
+}
+#item4{
+    grid-area: secondlist;
+}
+#item5{
+    grid-area: thirdlist;
+}
+#item6{
+    grid-area: socials;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
